@@ -57,6 +57,7 @@ def turn(board)
   else 
     puts "Can't move here"
     puts "Where else would you like to move?"
+    input = gets.strip
     
     
     
