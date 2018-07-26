@@ -51,7 +51,7 @@ def position_taken?(board, index)
   end
 end
 
-def turn
+def turn(board)
   if valid_move?(board, index) == true
     display_board(board)
   else 
