@@ -59,4 +59,5 @@ def turn(board)
     puts "Where else would you like to move?"
     
     
+    
 end
