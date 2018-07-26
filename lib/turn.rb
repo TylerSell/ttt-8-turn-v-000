@@ -54,6 +54,7 @@ end
 def turn
   if valid_move?(board, index) == true
     display_board(board)
-  else
+  else 
+    
     
 end
