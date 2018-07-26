@@ -35,7 +35,25 @@ def valid_move?(board, index)
   elsif position_taken?(board, index) == true
     false
   elsif between(index) == false
+    false
+  end
+end
 
-def turn(input)
-  
+def position_taken?(board, index)
+  if board[index] == " "
+    false
+  elsif board[index] == ""
+    false
+  elsif board[index] == nil
+    false
+  elsif board[index] == "X" || "O"
+    true
+  end
+end
+
+def turn
+  if valid_move?(board, index) == true
+    display_board(board)
+  else
+    
 end
