@@ -55,6 +55,8 @@ def turn
   if valid_move?(board, index) == true
     display_board(board)
   else 
+    puts "Can't move here"
+    puts "Where else would you like to move?"
     
     
 end
