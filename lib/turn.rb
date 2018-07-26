@@ -58,7 +58,8 @@ def turn(board)
     puts "Can't move here"
     puts "Where else would you like to move?"
     input = gets.strip
-    index = input_to_index
+    index = input_to_index(input)
+    
     
     
 end
