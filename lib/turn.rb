@@ -62,6 +62,6 @@ def turn(board)
     input = gets.strip
     index = input_to_index(input)
   end
-  move(board, index, value)
+  move(board, index, value = "X")
   display_board(board)
 end
