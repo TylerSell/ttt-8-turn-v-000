@@ -22,6 +22,20 @@ def move(board, index, value = "X")
   board[index] = value
 end
 
+def valid_move?(board, index)
+  def between(index)
+    if index >= 0 && index <= 8
+      true
+    else 
+      false
+    end
+  end
+  if position_taken?(board, index) == false && between(index) == true
+    true
+  elsif position_taken?(board, index) == true
+    false
+  elsif between(index) == false
+
 def turn(input)
   
 end
